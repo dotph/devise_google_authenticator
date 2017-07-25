@@ -9,7 +9,7 @@ module Devise # :nodoc:
         base.extend ClassMethods
 
         base.class_eval do
-          before_validation :assign_auth_secret, :on => :create
+#          before_validation :assign_auth_secret, :on => :create
           include InstanceMethods
         end
       end
